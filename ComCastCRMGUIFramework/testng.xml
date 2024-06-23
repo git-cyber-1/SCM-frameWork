@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.ContactTest.CreateContactWithSupportDateTest"/>
+      <class name="com.comcast.crm.orgTest.DeleteOrgTest"/>
+      <class name="com.comcast.crm.orgTest.CreateOrgTestWithIndustrieswithpom"/>
+      <class name="com.crm.comcast.orgusingTestNGTest.CreateOrgTest"/>
+      <class name="com.crm.comcast.ContactusingTestNGTest.CreateContactTest"/>
+      <class name="com.comcast.crm.orgTest.CreateORGTestwithpomopt"/>
+      <class name="com.comcast.crm.ContactTest.CreateContactWithOrgIntegration"/>
+      <class name="com.comcast.crm.ContactTest.NewTest"/>
+      <class name="com.comcast.crm.orgTest.CreateOrgTest"/>
+      <class name="com.comcast.crm.orgTest.CreateORGTestwithpom"/>
+      <class name="com.comcast.crm.ContactTest.CreateContactTestTestNGBaseClass"/>
+      <class name="com.comcast.crm.generic.fileutility.JsonDemo"/>
+      <class name="com.comcast.crm.orgTest.CreateOrgTestWithPhoneNumber"/>
+      <class name="practiceTestFromTestNG.ConfigurationAnnotations"/>
+      <class name="com.comcast.crm.ContactTest.CreateContactTest"/>
+      <class name="task.Cricbuzz"/>
+      <class name="com.comcast.crm.orgTest.CreateORGTestwithTestNG"/>
+      <class name="practiceTestFromTestNG.GetProductsInfoTest"/>
+      <class name="com.comcast.crm.orgTest.CreateOrgTestWithPhoneNumpom"/>
+      <class name="com.comcast.crm.ContactTest.CreateContactTestwithpom"/>
+      <class name="com.comcast.crm.orgTest.CreateOrgTestWithIndustries"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
