@@ -11,5 +11,11 @@ public class ProductPage {
 	public WebElement getCreateprdctbtn() {
 		return createprdctbtn;
 	} 
+	@FindBy(name="searchBtn")
+	private WebElement ele3;
+
+	public WebElement getEle3() {
+		return ele3;
+	}
 
 }
