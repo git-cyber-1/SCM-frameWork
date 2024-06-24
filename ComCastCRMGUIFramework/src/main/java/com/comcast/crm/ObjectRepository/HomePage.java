@@ -9,6 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	WebDriver driver;
 
+	@FindBy(linkText = "Email")
+	private WebElement emailLink;
+	
+	public WebElement getEmailLink() {
+		return emailLink;
+	}
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
 	
