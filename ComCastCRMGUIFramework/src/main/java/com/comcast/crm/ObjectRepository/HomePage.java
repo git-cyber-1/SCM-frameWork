@@ -11,7 +11,14 @@ public class HomePage {
 
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
+	
+	@FindBy(linkText = "Products")
+	private WebElement productLink;
 
+
+	public WebElement getSignOutLink() {
+		return signOutLink;
+	}
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
 
@@ -44,6 +51,11 @@ public class HomePage {
 	public WebElement getContactLink() {
 		return contactLink;
 	}
+	
+	public WebElement getProductLink() {
+		return productLink;
+	}
+	
        //BUSINESS METHODS FOR MULTIPLE ACTIONS
 	public void navigateToCampaign() {
 		Actions act=new Actions(driver);
