@@ -11,5 +11,17 @@ public class ProductPage {
 	public WebElement getCreateprdctbtn() {
 		return createprdctbtn;
 	} 
+	@FindBy(name="searchBtn")
+	private WebElement ele3;
+
+	public WebElement getEle3() {
+		return ele3;
+	}
+	@FindBy(xpath="//input[@onclick=\"callSearch('Basic');\"]")
+	private WebElement ele4;
+
+	public WebElement getEle4() {
+		return ele4;
+	}
 
 }
