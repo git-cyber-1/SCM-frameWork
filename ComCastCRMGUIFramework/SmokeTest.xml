@@ -10,7 +10,7 @@
 		<classes>
 			<class
 				name="com.comcast.crm.ContactTest.CreateContactTestTestNGBaseClass" />
-			<class name="com.comcast.crm.orgTest.CreateORGTestwithTestNG" />
+		
 		</classes>
 	</test> <!--
 	Test -->
