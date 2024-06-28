@@ -29,6 +29,7 @@ public class CreateContactTestTestNGBaseClass extends SimpleBaseClass {
 
 		CreateContactPage ccp = new CreateContactPage(driver);
 		ccp.createcontact(lastname);
+		System.out.println("new contact updated");
 
 		ContactInfoPage cip = new ContactInfoPage(driver);
 		String header = cip.getHeaderMsg().getText();
