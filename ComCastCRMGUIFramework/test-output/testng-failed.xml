@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.comcast.scm.IntegartionTest.AdminRelatedIntegrationTest">
+      <class name="com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest">
         <methods>
-          <include name="adminAddDistributorDisplayinAdminList"/>
+          <include name="negButton_IsNotCheckedTest"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
         </methods>
-      </class> <!-- com.comcast.scm.IntegartionTest.AdminRelatedIntegrationTest -->
+      </class> <!-- com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
