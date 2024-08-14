@@ -1,80 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="4" failed="5" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T10:56:07 IST" name="Default suite" finished-at="2024-08-14T10:56:22 IST" duration-ms="15455">
+  <suite started-at="2024-08-14T12:51:18 IST" name="Default suite" finished-at="2024-08-14T12:53:38 IST" duration-ms="140727">
     <groups>
     </groups>
-    <test started-at="2024-08-14T10:56:07 IST" name="Default test" finished-at="2024-08-14T10:56:22 IST" duration-ms="15455">
-      <class name="com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:07 IST" name="configBS" finished-at="2024-08-14T10:56:07 IST" duration-ms="39" status="PASS">
+    <test started-at="2024-08-14T12:51:18 IST" name="Default test" finished-at="2024-08-14T12:53:38 IST" duration-ms="140727">
+      <class name="com.comcast.scm.EndToEndTest.ManufactureProductaAddTest">
+        <test-method signature="addproductinManufactrePage()[pri:1, instance:com.comcast.scm.EndToEndTest.ManufactureProductaAddTest@cb0755b]" started-at="2024-08-14T12:51:18 IST" name="addproductinManufactrePage" finished-at="2024-08-14T12:53:03 IST" duration-ms="104750" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:07 IST" name="configBC" finished-at="2024-08-14T10:56:10 IST" duration-ms="2818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:10 IST" name="configBM" finished-at="2024-08-14T10:56:13 IST" duration-ms="3627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="checkbox_CheckedAndUncheckedTest()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:13 IST" name="checkbox_CheckedAndUncheckedTest" finished-at="2024-08-14T10:56:15 IST" duration-ms="1715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox_CheckedAndUncheckedTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:15 IST" name="configAM" finished-at="2024-08-14T10:56:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:15 IST" name="configBM" finished-at="2024-08-14T10:56:16 IST" duration-ms="473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="checkbox_IsCheckedTest()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:16 IST" name="checkbox_IsCheckedTest" finished-at="2024-08-14T10:56:16 IST" duration-ms="496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox_IsCheckedTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:16 IST" name="configAM" finished-at="2024-08-14T10:56:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:16 IST" name="configBM" finished-at="2024-08-14T10:56:16 IST" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="checkbox_IsEnabledAndClickableTest()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:16 IST" name="checkbox_IsEnabledAndClickableTest" finished-at="2024-08-14T10:56:17 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox_IsEnabledAndClickableTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:17 IST" name="configAM" finished-at="2024-08-14T10:56:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:17 IST" name="configBM" finished-at="2024-08-14T10:56:17 IST" duration-ms="476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="checkbox_IsUncheckedTest()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:17 IST" name="checkbox_IsUncheckedTest" finished-at="2024-08-14T10:56:18 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox_IsUncheckedTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:18 IST" name="configAM" finished-at="2024-08-14T10:56:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:18 IST" name="configBM" finished-at="2024-08-14T10:56:18 IST" duration-ms="443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="multipleCheckboxes_AreCheckedTest()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:18 IST" name="multipleCheckboxes_AreCheckedTest" finished-at="2024-08-14T10:56:19 IST" duration-ms="418" status="FAIL">
-          <exception class="java.lang.ClassCastException">
+        </test-method> <!-- addproductinManufactrePage -->
+        <test-method signature="manufactureUpdateInventory()[pri:2, instance:com.comcast.scm.EndToEndTest.ManufactureProductaAddTest@cb0755b]" started-at="2024-08-14T12:53:03 IST" name="manufactureUpdateInventory" finished-at="2024-08-14T12:53:38 IST" duration-ms="35912" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[class jdk.proxy2.$Proxy16 cannot be cast to class java.util.List (jdk.proxy2.$Proxy16 is in module jdk.proxy2 of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#login\:username"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92effd0d65d259cd1baeca53e37c9c10, findElement {value=login:username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\girij\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92effd0d65d259cd1baeca53e37c9c10]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: class jdk.proxy2.$Proxy16 cannot be cast to class java.util.List (jdk.proxy2.$Proxy16 is in module jdk.proxy2 of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
-at com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest.multipleCheckboxes_AreCheckedTest(CheckBoxFunctionalTest.java:49)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login\:username"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92effd0d65d259cd1baeca53e37c9c10, findElement {value=login:username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\girij\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58614/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92effd0d65d259cd1baeca53e37c9c10
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+at com.comcast.scm.ObjectRepo.LoginPage.manufacturerLogin(LoginPage.java:91)
+at com.comcast.scm.EndToEndTest.ManufactureProductaAddTest.manufactureUpdateInventory(ManufactureProductaAddTest.java:103)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -103,231 +81,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleCheckboxes_AreCheckedTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:19 IST" name="configAM" finished-at="2024-08-14T10:56:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:19 IST" name="configBM" finished-at="2024-08-14T10:56:19 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="negCheckbox_IsDisabled()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:19 IST" name="negCheckbox_IsDisabled" finished-at="2024-08-14T10:56:19 IST" duration-ms="372" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest.negCheckbox_IsDisabled(CheckBoxFunctionalTest.java:108)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negCheckbox_IsDisabled -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:19 IST" name="configAM" finished-at="2024-08-14T10:56:19 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:19 IST" name="configBM" finished-at="2024-08-14T10:56:20 IST" duration-ms="482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="negCheckbox_NotCheckedAfterClicking()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:20 IST" name="negCheckbox_NotCheckedAfterClicking" finished-at="2024-08-14T10:56:20 IST" duration-ms="452" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest.negCheckbox_NotCheckedAfterClicking(CheckBoxFunctionalTest.java:143)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negCheckbox_NotCheckedAfterClicking -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:20 IST" name="configAM" finished-at="2024-08-14T10:56:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:20 IST" name="configBM" finished-at="2024-08-14T10:56:21 IST" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="negCheckbox_NotUncheckedAfterClickingTwice()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:21 IST" name="negCheckbox_NotUncheckedAfterClickingTwice" finished-at="2024-08-14T10:56:21 IST" duration-ms="574" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest.negCheckbox_NotUncheckedAfterClickingTwice(CheckBoxFunctionalTest.java:167)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negCheckbox_NotUncheckedAfterClickingTwice -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:21 IST" name="configAM" finished-at="2024-08-14T10:56:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:21 IST" name="configBM" finished-at="2024-08-14T10:56:22 IST" duration-ms="455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="negcheckbox_IsNotVisible()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:22 IST" name="negcheckbox_IsNotVisible" finished-at="2024-08-14T10:56:22 IST" duration-ms="387" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest.negcheckbox_IsNotVisible(CheckBoxFunctionalTest.java:125)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negcheckbox_IsNotVisible -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:22 IST" name="configAM" finished-at="2024-08-14T10:56:22 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:22 IST" name="configAC" finished-at="2024-08-14T10:56:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest@4d1bf319]" started-at="2024-08-14T10:56:22 IST" name="configAS" finished-at="2024-08-14T10:56:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest -->
+        </test-method> <!-- manufactureUpdateInventory -->
+      </class> <!-- com.comcast.scm.EndToEndTest.ManufactureProductaAddTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

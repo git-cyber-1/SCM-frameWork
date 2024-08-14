@@ -25,7 +25,7 @@ public class RetailerOrderTest {
 
 	WebDriver driver;
 
-	@Test
+	@Test(groups = "EndToEnd")
 
 	public void placeNewOrder() throws EncryptedDocumentException, IOException {
 		// creating object for generic utility class

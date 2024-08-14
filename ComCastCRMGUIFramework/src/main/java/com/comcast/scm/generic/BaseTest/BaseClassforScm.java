@@ -36,7 +36,7 @@ public class BaseClassforScm extends WebDriverUtility {
 	public WebDriver driver = null;
 	public static WebDriver sdriver = null;
 
-	@BeforeSuite(groups = { "ST", "FT" })
+	@BeforeSuite(groups = { "ST", "FT","EndToEnd" })
 	public void configBS() throws SQLException {
 		//System.out.println("get db connection");
 		dlib.getDBconnection(null, null, null);
@@ -68,7 +68,7 @@ public class BaseClassforScm extends WebDriverUtility {
 		UtilityClassObject.setTest(driver);
 	}
 
-	@BeforeMethod(groups = { "ST", "FT" })
+	@BeforeMethod(groups = { "ST", "FT","EndToEnd" })
 	public void configBM() throws IOException {
 		System.out.println("login done");
 		String USERNAME = flib.getdatafromproperties("username");
@@ -79,25 +79,25 @@ public class BaseClassforScm extends WebDriverUtility {
 
 	}
 
-	@AfterMethod(groups = { "ST", "FT" })
+	@AfterMethod(groups = { "ST", "FT" ,"EndToEnd"})
 	public void configAM()
 	{
-	/**	AdminHomePage hp=new AdminHomePage(driver);
+	AdminHomePage hp=new AdminHomePage(driver);
 		hp.signout();
-		waitForPageToLoad(driver);
+		/**waitForPageToLoad(driver);
 		LoginPage lp=new LoginPage(driver);
 		boolean logo = lp.getLogo().isDisplayed();
 		Assert.assertTrue(logo);
 		System.out.println("logOut sucessfull");**/
 	}
 
-	@AfterClass(groups = { "ST", "FT" })
+	@AfterClass(groups = { "ST", "FT" ,"EndToEnd"})
 	public void configAC() {
 		System.out.println("driver quit");
-	//	driver.quit();
+	    driver.quit();
 	}
 
-	@AfterSuite(groups = { "ST", "FT" })
+	@AfterSuite(groups = { "ST", "FT" ,"EndToEnd"})
 	public void configAS() {
 		//System.out.println("close db conection");
 

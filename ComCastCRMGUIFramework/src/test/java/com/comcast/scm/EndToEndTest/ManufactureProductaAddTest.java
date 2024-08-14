@@ -24,7 +24,7 @@ import com.comcast.scm.generic.webDriverUtility.WebDriverUtility;
  */
 public class ManufactureProductaAddTest {
           WebDriver driver;
-	@Test(priority =1)
+	@Test(groups = "EndToEnd",priority =1)
 	public void addproductinManufactrePage() throws EncryptedDocumentException, IOException
 	{
 		
@@ -78,7 +78,7 @@ public class ManufactureProductaAddTest {
 	 * to manufacturer updating stock and verifying that product updated in inventory or not
 	 */
 	
-	@Test(priority = 2)
+	@Test(groups = "EndToEnd",priority = 2)
 	public void manufactureUpdateInventory() throws EncryptedDocumentException, IOException
 	{
 		//creating object for generic utility class

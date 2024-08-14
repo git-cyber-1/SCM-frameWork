@@ -23,7 +23,7 @@ public class AdminAddManRetailDistruburorTest extends BaseClassforScm {
 
 	
 	
-	@Test
+	@Test(priority=1,groups = "EndToEnd")
 	public void admincreatingManufacturer() throws EncryptedDocumentException, IOException, InterruptedException {
 		//this method for adding manufacture and creating credentials for manufacture
 		
@@ -52,7 +52,7 @@ public class AdminAddManRetailDistruburorTest extends BaseClassforScm {
 
 	}
 	
-     @Test
+     @Test(priority=2,groups = "EndToEnd")
      public void adminAddRetailerTest() throws EncryptedDocumentException, IOException, InterruptedException
      {
     	  AdminHomePage ahp = new AdminHomePage(driver);
@@ -82,7 +82,7 @@ public class AdminAddManRetailDistruburorTest extends BaseClassforScm {
 		Assert.assertEquals(actualMsg,expectedMsg);
 		
      }
-     @Test
+     @Test(priority=3,groups = "EndToEnd")
      public void adminAddDistributorTest() throws EncryptedDocumentException, IOException
      {
     	 AdminHomePage ahp = new AdminHomePage(driver);
