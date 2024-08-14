@@ -36,7 +36,7 @@ public class BaseClassforScm extends WebDriverUtility {
 	public WebDriver driver = null;
 	public static WebDriver sdriver = null;
 
-	@BeforeSuite(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeSuite(groups = { "ST", "RegressionTest" })
 	public void configBS() throws SQLException {
 		//System.out.println("get db connection");
 		dlib.getDBconnection(null, null, null);
@@ -46,7 +46,7 @@ public class BaseClassforScm extends WebDriverUtility {
 
 	// @Parameters("BROWSER")
 	// WHEN CROSS BROWSER EXECUTION IN configBC(String browser)change
-	@BeforeClass(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeClass(groups = { "ST", "RegressionTest" })
 	public void configBC() throws IOException {
 		System.out.println("browser launched");
 
@@ -68,7 +68,7 @@ public class BaseClassforScm extends WebDriverUtility {
 		UtilityClassObject.setTest(driver);
 	}
 
-	@BeforeMethod(groups = { "SmokeTest", "RegressionTest" })
+	@BeforeMethod(groups = { "ST", "RegressionTest" })
 	public void configBM() throws IOException {
 		System.out.println("login done");
 		String USERNAME = flib.getdatafromproperties("username");
@@ -79,7 +79,7 @@ public class BaseClassforScm extends WebDriverUtility {
 
 	}
 
-	@AfterMethod(groups = { "SmokeTest", "RegressionTest" })
+	@AfterMethod(groups = { "ST", "RegressionTest" })
 	public void configAM()
 	{
 	/**	AdminHomePage hp=new AdminHomePage(driver);
@@ -91,13 +91,13 @@ public class BaseClassforScm extends WebDriverUtility {
 		System.out.println("logOut sucessfull");**/
 	}
 
-	@AfterClass(groups = { "SmokeTest", "RegressionTest" })
+	@AfterClass(groups = { "ST", "RegressionTest" })
 	public void configAC() {
 		System.out.println("driver quit");
 	//	driver.quit();
 	}
 
-	@AfterSuite(groups = { "SmokeTest", "RegressionTest" })
+	@AfterSuite(groups = { "ST", "RegressionTest" })
 	public void configAS() {
 		//System.out.println("close db conection");
 
