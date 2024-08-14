@@ -64,7 +64,7 @@
 
 		</profile>
 		<profile>
-			<id>SPC</id>
+			<id>FT</id>
 			<build>
 				<plugins>
 					<!-- Below plug-in is used to execute tests -->
@@ -76,7 +76,7 @@
 							<suiteXmlFiles>
 								<!-- TestNG suite XML files -->
 								<suiteXmlFile>
-									Suite_parallel_crossbrowsertestng.xml</suiteXmlFile>
+									SCMFunctionalTest.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
