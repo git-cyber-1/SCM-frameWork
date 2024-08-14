@@ -3,7 +3,7 @@
 <suite name="Suite">
    <groups>
        <run>
-       <include name="E"></include>
+       <include name="EndToEnd"/>
        </run>
    </groups>
   <test thread-count="5" name="Test">
