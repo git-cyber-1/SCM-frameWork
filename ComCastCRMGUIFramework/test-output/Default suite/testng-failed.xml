@@ -3,11 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.comcast.scm.smokeTest.RetailerSmokeTest">
+      <class name="com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest">
         <methods>
-          <include name="retailerPostNewOrder"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="negCheckbox_IsDisabled"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="multipleCheckboxes_AreCheckedTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="negcheckbox_IsNotVisible"/>
+          <include name="negCheckbox_NotUncheckedAfterClickingTwice"/>
+          <include name="negCheckbox_NotCheckedAfterClicking"/>
         </methods>
-      </class> <!-- com.comcast.scm.smokeTest.RetailerSmokeTest -->
+      </class> <!-- com.comcast.scm.FunctionalTest.CheckBoxFunctionalTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

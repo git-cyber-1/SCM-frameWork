@@ -55,7 +55,7 @@
 						<configuration>
 							<suiteXmlFiles>
 								<!-- TestNG suite XML files -->
-								<suiteXmlFile>testngSmokeST.xml</suiteXmlFile>
+								<suiteXmlFile>SCMSmokeTest.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
