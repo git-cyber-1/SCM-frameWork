@@ -27,7 +27,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
       WebDriverUtility wlib=new WebDriverUtility();
 	
 	
-	@Test
+	@Test(groups = "FT")
 	public void muserNameValidTest() throws EncryptedDocumentException, IOException {
 		
 		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -50,7 +50,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
 		
 	}
 	
-     @Test
+     @Test(groups = "FT")
      public void muserNameminCharTest() throws EncryptedDocumentException, IOException {
  		
  		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -71,7 +71,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
  		ahp.getSignOut().click();
      }	
      
-     @Test
+     @Test(groups = "FT")
      public void muserNamemaxCharTest() throws EncryptedDocumentException, IOException {
  		
  		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -92,7 +92,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
  		ahp.getSignOut().click();
      }	
      
-     @Test
+     @Test(groups = "FT")
      public void muserNameAlphaNumericTest() throws EncryptedDocumentException, IOException {
  		
  		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -112,7 +112,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
  		Assert.assertEquals(actualAlertresult, altmsg);
  		ahp.getSignOut().click();
      }		
-     @Test
+     @Test(groups = "FT")
      public void muserNameMixCaseTest() throws EncryptedDocumentException, IOException {
  		
  		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -133,7 +133,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
  		ahp.getSignOut().click();
      }		
 
-     @Test
+     @Test(groups = "FT")
      public void muserNameNegativeEmpty() throws EncryptedDocumentException, IOException {
  		
  		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -151,7 +151,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
  		  Assert.assertTrue(errorMsg);
  	
      }	
-     @Test
+     @Test(groups = "FT")
      public void muserNameExceedingChar() throws EncryptedDocumentException, IOException {
   		
   		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -168,7 +168,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
   		  Assert.assertTrue(errorMsg);
      }
      
-     @Test
+     @Test(groups = "FT")
      public void muserNameWithSpecialChar() throws EncryptedDocumentException, IOException {
   		
   		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -184,7 +184,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
   		  boolean errorMsg = ahp.getErrorMsg().isDisplayed();
   		  Assert.assertTrue(errorMsg);
      }
-     @Test
+     @Test(groups = "FT")
      public void muserNameWithSpace() throws EncryptedDocumentException, IOException {
   		
   		String name = elib.getDataFromExcel("endtoend", 1, 1);
@@ -200,7 +200,7 @@ public class ManufacturerUserNameTextFiledTest extends BaseClassforScm {
   		  boolean errorMsg = ahp.getErrorMsg().isDisplayed();
   		  Assert.assertTrue(errorMsg);
      }
-     @Test
+     @Test(groups = "FT")
      public void muserNameHtmlTags() throws EncryptedDocumentException, IOException {
   		
   		String name = elib.getDataFromExcel("endtoend", 1, 1);

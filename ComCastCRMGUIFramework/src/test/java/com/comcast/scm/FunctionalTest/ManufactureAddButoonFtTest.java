@@ -8,7 +8,7 @@ import com.comcast.scm.ObjectRepo.AdminHomePage;
 import com.comcast.scm.generic.BaseTest.BaseClassforScm;
 
 public class ManufactureAddButoonFtTest extends BaseClassforScm {
-	@Test
+	@Test(groups = "FT")
 	public void button_IsClickableTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -23,7 +23,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 
 	}
 
-	@Test
+	@Test(groups = "FT")
 	public void button_IsEnabledTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -37,7 +37,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 
 	}
 
-	@Test
+	@Test(groups = "FT")
 	public void button_IsVisibleTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -50,7 +50,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 		Assert.assertTrue(button.isDisplayed());
 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void button_TextIsCorrectTest() {
 	
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -65,7 +65,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 
 	 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void button_IsCheckedTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -79,7 +79,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 		Assert.assertTrue(button.isSelected());
 	
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negButton_IsNotClickableTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -93,7 +93,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 		Assert.assertFalse(button.isDisplayed());
 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negButton_IsNotEnabledTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -106,7 +106,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 		Assert.assertFalse(button.isEnabled());
 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negButton_IsNotVisibleTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -119,7 +119,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 		Assert.assertFalse(button.isDisplayed());
 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negButton_TextIsNotCorrectTest() {
 	
 		AdminHomePage ahp = new AdminHomePage(driver);
@@ -134,7 +134,7 @@ public class ManufactureAddButoonFtTest extends BaseClassforScm {
 
 	 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negButton_IsNotCheckedTest() {
 
 		AdminHomePage ahp = new AdminHomePage(driver);

@@ -17,7 +17,7 @@ import junit.framework.Assert;
 public class DropDownOrdersAdminPageTest extends BaseClassforScm {
 	
 	
-	@Test
+	@Test(groups = "FT")
 	public void selectOption()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -30,7 +30,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
 	}
 	
 
-	@Test
+	@Test(groups = "FT")
 	public void dropDownIsEnabled()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -41,7 +41,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
 	}
 	
 
-	@Test
+	@Test(groups = "FT")
 	public void dropDownByKeyBoard()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -57,7 +57,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
         Assert.assertTrue(textBox);
 		
 	}
-	@Test
+	@Test(groups = "FT")
 	public void dropDownByMouseOver()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -77,7 +77,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
 		
 	}
 	
-	@Test
+	@Test(groups = "FT")
 	public void dropDownNegativeDisabledTest()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -86,7 +86,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
         Assert.assertFalse(textBox);
 		
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negAllOptionAreNotLoadedTest()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);
@@ -101,7 +101,7 @@ public class DropDownOrdersAdminPageTest extends BaseClassforScm {
 
 	  
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negDropdownOptionsNotSelectableTest()
 	{
 		AdminHomePage ahp=new AdminHomePage(driver);

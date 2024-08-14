@@ -11,7 +11,7 @@ import com.comcast.scm.generic.BaseTest.BaseClassforScm;
 
 public class CheckBoxFunctionalTest extends BaseClassforScm{
 
-	@Test
+	@Test(groups = "FT")
 	public void checkbox_IsCheckedTest() {
 	  
     AdminHomePage ahp=new AdminHomePage(driver);
@@ -27,7 +27,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 	
 	}
 	
-	@Test
+	@Test(groups = "FT")
 	public void checkbox_IsUncheckedTest() {
 	 
 		 AdminHomePage ahp=new AdminHomePage(driver);
@@ -40,7 +40,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 
 	}
 	
-	@Test
+	@Test(groups = "FT")
 	public void multipleCheckboxes_AreCheckedTest() {
 	 
 		 AdminHomePage ahp=new AdminHomePage(driver);
@@ -54,7 +54,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 	    Assert.assertFalse(checkbox.isSelected());
 	  }
 	}
-	@Test
+	@Test(groups = "FT")
 	public void checkbox_CheckedAndUncheckedTest() {
 	 
 		 AdminHomePage ahp=new AdminHomePage(driver);
@@ -77,7 +77,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 
 	
 	}
-	@Test
+	@Test(groups = "FT")
 	public void checkbox_IsEnabledAndClickableTest() {
 	 
 		 AdminHomePage ahp=new AdminHomePage(driver);
@@ -94,7 +94,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 
 	 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negCheckbox_IsDisabled() {
 	  
 
@@ -110,7 +110,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 	
 	}
 	
-	@Test
+	@Test(groups = "FT")
 	public void negcheckbox_IsNotVisible() {
 	
 
@@ -127,7 +127,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 	 
 	}
 	
-	@Test
+	@Test(groups = "FT")
 	public void negCheckbox_NotCheckedAfterClicking() {
 	 
 	     AdminHomePage ahp=new AdminHomePage(driver);
@@ -144,7 +144,7 @@ public class CheckBoxFunctionalTest extends BaseClassforScm{
 
 	 
 	}
-	@Test
+	@Test(groups = "FT")
 	public void negCheckbox_NotUncheckedAfterClickingTwice() {
 	  
 		  AdminHomePage ahp=new AdminHomePage(driver);
