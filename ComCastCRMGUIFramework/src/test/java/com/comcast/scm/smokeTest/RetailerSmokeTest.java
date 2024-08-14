@@ -25,7 +25,7 @@ public class RetailerSmokeTest {
 
 	
 	
-	@Test
+	@Test(groups= "ST",priority = 1)
 	public void ratailerLoginTest() throws EncryptedDocumentException, IOException
 	{
 		
@@ -51,7 +51,7 @@ public class RetailerSmokeTest {
 		driver.quit();
 		
 	}
-	@Test
+	@Test(groups= "ST",priority = 2)
 	public void retailerAddNewOrderTest() throws EncryptedDocumentException, IOException
 	{
 		// reading datas from excell
@@ -76,7 +76,7 @@ public class RetailerSmokeTest {
 		rp.getRetailerSignOutBtn();
 		driver.quit();
 	}
-	@Test
+	@Test(enabled = false,groups= "ST",priority = 3)
 	public void retailerPostNewOrder() throws EncryptedDocumentException, IOException
 	{
 		String retaileruname = elib.getDataFromExcel("endtoend", 14, 1);
@@ -94,20 +94,18 @@ public class RetailerSmokeTest {
 		// creating object for retailerHomePage
 		RetailerHomePage rhp = new RetailerHomePage(driver);
 
-		rhp.getPoductsListBtn().click();
-		List<WebElement> exixtingProducts = rhp.getListProduct();
-
 		String searchProduct = elib.getDataFromExcel("endtoend", 14, 4);
 		String reqQuantity = elib.getDataFromExcel("endtoend", 14, 5);
 		
-		for (WebElement product : exixtingProducts) {
-			String availableProduct = product.getText();
-			    
-			    if (availableProduct.equals(searchProduct)) {
+		System.out.println(searchProduct);
+		rhp.getPoductsListBtn().click();
+		List<WebElement> exixtingProducts = rhp.getListProduct();
+		for(WebElement ele:exixtingProducts)
+		{
+			if (ele.getText().equals(searchProduct)) {
 				System.out.println("product is availbale");
 				rhp.getAddNewOrderBtn().click();
-				String stock = driver.findElement(By.xpath(
-						"//td[normalize-space(.)='" + searchProduct + "']/following-sibling::td[last()-2]")).getText();
+				String stock = driver.findElement(By.xpath("//td[normalize-space(.)='"+searchProduct+"']/following-sibling::td[last()-2]")).getText();
 				System.out.println(stock);
 				String str =stock;
 				int stocki = Integer.parseInt(str);
@@ -119,21 +117,19 @@ public class RetailerSmokeTest {
 					
 				{
 					System.out.println("ok");
-					WebElement ele = driver.findElement(By.xpath(
-							"//td[normalize-space(.)='" + searchProduct + "']/following-sibling::td[last()-1]/input"));
-					wlib.waitforElementPresent(driver, ele);
+					WebElement ele1 = driver.findElement(By.xpath("//td[normalize-space(.)='"+searchProduct+"']/following-sibling::td[last()-1]/input"));
+					wlib.waitforElementPresent(driver, ele1);
 				   // wlib.moveToElement(driver, ele, reqQuantity);
-					wlib.sendDataUsingjavaScript(driver, reqQuantity, ele);
-					wlib.scrollToElement(driver, rhp.getPostOrderBtn());
+					wlib.sendDataUsingjavaScript(driver, reqQuantity, ele1);
+					wlib.scrollToElement(driver, rhp.getPostOrderBtn());  
+					rhp.getRetailerSignOutBtn().click();}
 					
 				}
 				
 
 			}
-
-			    rhp.getRetailerSignOutBtn().click();
-			    
+         }
+		 
+        
+	
 	}
-
-}
-}

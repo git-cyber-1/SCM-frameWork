@@ -21,7 +21,7 @@ import com.comcast.scm.generic.webDriverUtility.WebDriverUtility;
 
 public class AdminSmokeTest extends BaseClassforScm{
 	    
-	@Test(groups= {"ST"},priority = 1)
+	@Test(groups= "ST",priority = 1)
 	public void loginPageValidationTest() throws IOException
 	{
 		// this is to verify whether login page is opening or not
@@ -39,10 +39,10 @@ public class AdminSmokeTest extends BaseClassforScm{
 	      System.out.println("==============page validation passed=====================");
 	    
 	      
-	      // driver.close();
+
 		    
 		}
-	@Test(groups= {"ST"},priority = 2)
+	@Test(groups= "ST",priority = 2)
 	public void adminLoginValidationTest()
 	{
 	         //To verify after login as admin whether Admin page is loaded or not
@@ -55,7 +55,7 @@ public class AdminSmokeTest extends BaseClassforScm{
    
 	}
 
-     @Test(groups= {"ST"},priority = 3)
+     @Test(groups= "ST",priority = 3)
      public void adminableToClickOnAddManufacturerTest() throws InterruptedException
      {
     	 // to verify whether add manufacturer page is loading or not
@@ -67,7 +67,7 @@ public class AdminSmokeTest extends BaseClassforScm{
     	 
      }
     
-     @Test(groups= {"ST"},priority = 4)
+     @Test(groups= "ST",priority = 4)
      public void adminAbleToAddManufacturerSucessfullyTest() throws EncryptedDocumentException, IOException
      {
     	 //to verify whether admin able to add Manufacturer sucessfully or not
@@ -109,14 +109,14 @@ public class AdminSmokeTest extends BaseClassforScm{
     	 
      }
 	
-       @Test
+       @Test(groups= "ST",priority = 5)
        public void logOutManufactuerTest() throws IOException
        {
     	       
               System.out.println("BASE CLASS WILL TAKE CARE OF IT");
        }
        
-       @Test
+       @Test(groups= "ST",priority = 6)
        public void adminAddRetailerTest() throws EncryptedDocumentException, IOException, InterruptedException
        {
     	   AdminHomePage ahp = new AdminHomePage(driver);
@@ -143,7 +143,7 @@ public class AdminSmokeTest extends BaseClassforScm{
  		
        }
        
-       @Test
+       @Test(groups= "ST",priority = 7)
        public void adminAddDistributorTest() throws EncryptedDocumentException, IOException
        {
     	   AdminHomePage ahp = new AdminHomePage(driver);

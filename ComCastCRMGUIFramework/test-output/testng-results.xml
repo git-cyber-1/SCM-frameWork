@@ -1,36 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-13T16:08:26 IST" name="Default suite" finished-at="2024-08-13T16:08:42 IST" duration-ms="16023">
+  <suite started-at="2024-08-14T09:55:46 IST" name="Suite" finished-at="2024-08-14T09:59:00 IST" duration-ms="194979">
     <groups>
+      <group name="ST">
+        <method signature="AdminSmokeTest.loginPageValidationTest()[pri:1, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="loginPageValidationTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="ManufacturerSmokeTest.manufacturerLoginTest()[pri:1, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" name="manufacturerLoginTest" class="com.comcast.scm.smokeTest.ManufacturerSmokeTest"/>
+        <method signature="RetailerSmokeTest.ratailerLoginTest()[pri:1, instance:com.comcast.scm.smokeTest.RetailerSmokeTest@4e5ed836]" name="ratailerLoginTest" class="com.comcast.scm.smokeTest.RetailerSmokeTest"/>
+        <method signature="AdminSmokeTest.adminLoginValidationTest()[pri:2, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="adminLoginValidationTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="ManufacturerSmokeTest.validateManufacturerPageWorking()[pri:2, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" name="validateManufacturerPageWorking" class="com.comcast.scm.smokeTest.ManufacturerSmokeTest"/>
+        <method signature="RetailerSmokeTest.retailerAddNewOrderTest()[pri:2, instance:com.comcast.scm.smokeTest.RetailerSmokeTest@4e5ed836]" name="retailerAddNewOrderTest" class="com.comcast.scm.smokeTest.RetailerSmokeTest"/>
+        <method signature="AdminSmokeTest.adminableToClickOnAddManufacturerTest()[pri:3, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="adminableToClickOnAddManufacturerTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="ManufacturerSmokeTest.addProduct()[pri:3, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" name="addProduct" class="com.comcast.scm.smokeTest.ManufacturerSmokeTest"/>
+        <method signature="AdminSmokeTest.adminAbleToAddManufacturerSucessfullyTest()[pri:4, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="adminAbleToAddManufacturerSucessfullyTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="AdminSmokeTest.logOutManufactuerTest()[pri:5, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="logOutManufactuerTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="AdminSmokeTest.adminAddRetailerTest()[pri:6, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="adminAddRetailerTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+        <method signature="AdminSmokeTest.adminAddDistributorTest()[pri:7, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" name="adminAddDistributorTest" class="com.comcast.scm.smokeTest.AdminSmokeTest"/>
+      </group> <!-- ST -->
     </groups>
-    <test started-at="2024-08-13T16:08:26 IST" name="Default test" finished-at="2024-08-13T16:08:42 IST" duration-ms="16023">
-      <class name="com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:26 IST" name="configBS" finished-at="2024-08-13T16:08:26 IST" duration-ms="104" status="PASS">
+    <test started-at="2024-08-14T09:55:46 IST" name="Test" finished-at="2024-08-14T09:59:00 IST" duration-ms="194979">
+      <class name="com.comcast.scm.smokeTest.RetailerSmokeTest">
+        <test-method signature="ratailerLoginTest()[pri:1, instance:com.comcast.scm.smokeTest.RetailerSmokeTest@4e5ed836]" started-at="2024-08-14T09:56:23 IST" name="ratailerLoginTest" finished-at="2024-08-14T09:56:30 IST" duration-ms="7450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratailerLoginTest -->
+        <test-method signature="retailerAddNewOrderTest()[pri:2, instance:com.comcast.scm.smokeTest.RetailerSmokeTest@4e5ed836]" started-at="2024-08-14T09:56:30 IST" name="retailerAddNewOrderTest" finished-at="2024-08-14T09:56:36 IST" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retailerAddNewOrderTest -->
+      </class> <!-- com.comcast.scm.smokeTest.RetailerSmokeTest -->
+      <class name="com.comcast.scm.smokeTest.AdminSmokeTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:55:45 IST" name="configBS" finished-at="2024-08-14T09:55:46 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:26 IST" name="configBC" finished-at="2024-08-13T16:08:36 IST" duration-ms="10311" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:55:46 IST" name="configBC" finished-at="2024-08-14T09:55:48 IST" duration-ms="2198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:36 IST" name="configBM" finished-at="2024-08-13T16:08:41 IST" duration-ms="5047" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:55:48 IST" name="configBM" finished-at="2024-08-14T09:55:52 IST" duration-ms="3870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="negButton_IsNotCheckedTest()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:41 IST" name="negButton_IsNotCheckedTest" finished-at="2024-08-13T16:08:42 IST" duration-ms="585" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="loginPageValidationTest()[pri:1, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:55:52 IST" name="loginPageValidationTest" finished-at="2024-08-14T09:56:01 IST" duration-ms="9158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:01 IST" name="configAM" finished-at="2024-08-14T09:56:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:01 IST" name="configBM" finished-at="2024-08-14T09:56:06 IST" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="adminLoginValidationTest()[pri:2, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:06 IST" name="adminLoginValidationTest" finished-at="2024-08-14T09:56:06 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginValidationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:06 IST" name="configAM" finished-at="2024-08-14T09:56:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:06 IST" name="configBM" finished-at="2024-08-14T09:56:14 IST" duration-ms="8628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="adminableToClickOnAddManufacturerTest()[pri:3, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:14 IST" name="adminableToClickOnAddManufacturerTest" finished-at="2024-08-14T09:56:15 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminableToClickOnAddManufacturerTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:15 IST" name="configAM" finished-at="2024-08-14T09:56:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:15 IST" name="configBM" finished-at="2024-08-14T09:56:15 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="adminAbleToAddManufacturerSucessfullyTest()[pri:4, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:15 IST" name="adminAbleToAddManufacturerSucessfullyTest" finished-at="2024-08-14T09:56:18 IST" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminAbleToAddManufacturerSucessfullyTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:18 IST" name="configAM" finished-at="2024-08-14T09:56:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:18 IST" name="configBM" finished-at="2024-08-14T09:56:19 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="logOutManufactuerTest()[pri:5, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:19 IST" name="logOutManufactuerTest" finished-at="2024-08-14T09:56:19 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutManufactuerTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:19 IST" name="configAM" finished-at="2024-08-14T09:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:19 IST" name="configBM" finished-at="2024-08-14T09:56:19 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="adminAddRetailerTest()[pri:6, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:19 IST" name="adminAddRetailerTest" finished-at="2024-08-14T09:56:21 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminAddRetailerTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:21 IST" name="configAM" finished-at="2024-08-14T09:56:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:21 IST" name="configBM" finished-at="2024-08-14T09:56:22 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="adminAddDistributorTest()[pri:7, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:22 IST" name="adminAddDistributorTest" finished-at="2024-08-14T09:56:23 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminAddDistributorTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:23 IST" name="configAM" finished-at="2024-08-14T09:56:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:56:23 IST" name="configAC" finished-at="2024-08-14T09:56:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.scm.smokeTest.AdminSmokeTest@4201c465]" started-at="2024-08-14T09:59:01 IST" name="configAS" finished-at="2024-08-14T09:59:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.scm.smokeTest.AdminSmokeTest -->
+      <class name="com.comcast.scm.smokeTest.ManufacturerSmokeTest">
+        <test-method signature="manufacturerLoginTest()[pri:1, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" started-at="2024-08-14T09:56:36 IST" name="manufacturerLoginTest" finished-at="2024-08-14T09:56:42 IST" duration-ms="5880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturerLoginTest -->
+        <test-method signature="validateManufacturerPageWorking()[pri:2, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" started-at="2024-08-14T09:56:42 IST" name="validateManufacturerPageWorking" finished-at="2024-08-14T09:57:17 IST" duration-ms="34689" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#login\:username"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [358a263dc642669937cc6364ee3d12c9, findElement {value=login:username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\girij\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55330/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 358a263dc642669937cc6364ee3d12c9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at org.testng.Assert.assertFalse(Assert.java:89)
-at com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest.negButton_IsNotCheckedTest(ManufactureAddButoonFtTest.java:148)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login\:username"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [358a263dc642669937cc6364ee3d12c9, findElement {value=login:username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\girij\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55330/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 358a263dc642669937cc6364ee3d12c9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+at com.comcast.scm.ObjectRepo.LoginPage.manufacturerLogin(LoginPage.java:91)
+at com.comcast.scm.smokeTest.ManufacturerSmokeTest.validateManufacturerPageWorking(ManufacturerSmokeTest.java:69)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -59,23 +207,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negButton_IsNotCheckedTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:42 IST" name="configAM" finished-at="2024-08-13T16:08:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- validateManufacturerPageWorking -->
+        <test-method signature="addProduct()[pri:3, instance:com.comcast.scm.smokeTest.ManufacturerSmokeTest@eadd4fb]" started-at="2024-08-14T09:57:17 IST" name="addProduct" finished-at="2024-08-14T09:59:00 IST" duration-ms="103425" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:42 IST" name="configAC" finished-at="2024-08-13T16:08:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest@673fdbce]" started-at="2024-08-13T16:08:42 IST" name="configAS" finished-at="2024-08-13T16:08:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.scm.FunctionalTest.ManufactureAddButoonFtTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- addProduct -->
+      </class> <!-- com.comcast.scm.smokeTest.ManufacturerSmokeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
